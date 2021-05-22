@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Textutils</title>
+</head>
+<body>
+   <h1>Analyzing your text.....</h1>
+   <form action='/analyze' method='get'>
+        <textarea name='text' style="margin: 0px; width: 706px; height: 151px;"> </textarea><br>
+
+        <input type="checkbox" name="removepunc">Remove punctuations<br>
+        <button type='submit'>analyse text</button>
+   </form>
+    {% comment %} {{name}} is from {{place}} {% endcomment %}
+</body>    
+</html>
